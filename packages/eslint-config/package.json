@@ -1,0 +1,21 @@
+{
+  "name": "@rambler-tech/eslint-config",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "sideEffects": false,
+  "dependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/eslint-parser": "^7.22.15",
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint-config-next": "^12.0.8",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-security": "^1.7.1",
+    "eslint-plugin-sonar": "^0.12.0",
+    "eslint-plugin-sonarjs": "^0.21.0"
+  }
+}

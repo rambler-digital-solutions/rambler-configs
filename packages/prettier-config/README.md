@@ -20,7 +20,7 @@ Create a **.prettierrc** and export a string
 "@rambler-tech/prettier-config"
 ```
 
-or add a key to your **package.json** file.
+or add a key to your **package.json** file
 
 ```
 "prettier": "@rambler-tech/prettier-config"
