@@ -20,7 +20,7 @@ Create a **.eslinrc** and extend this config. Make sure to put `eslint-config-pr
 {
   "extends": [
     "@rambler-tech/eslint-config",
-    "@rambler-tech/eslint-config/typescript",
+    "@rambler-tech/eslint-config/ts",
     "prettier"
   ]
 }
@@ -32,7 +32,7 @@ or add a key to your **package.json** file.
 "eslintConfig": {
   "extends": [
     "@rambler-tech/eslint-config",
-    "@rambler-tech/eslint-config/typescript",
+    "@rambler-tech/eslint-config/ts",
     "prettier"
   ]
 }
@@ -43,11 +43,11 @@ or add a key to your **package.json** file.
 Use proper configs at the same time depending on your stack. Included configs:
 
 - `@rambler-tech/eslint-config` (default)
-- `@rambler-tech/eslint-config/typescript`
+- `@rambler-tech/eslint-config/ts`
 - `@rambler-tech/eslint-config/react`
 - `@rambler-tech/eslint-config/next`
 
-Note that the `@rambler-tech/eslint-config/typescript` should be second to last in the list (before the 'prettier') since it includes `@typescript-eslint/parser`:
+Note that the `@rambler-tech/eslint-config/ts` should be second to last in the list (before the 'prettier') since it includes `@typescript-eslint/parser`:
 
 ```
 "eslintConfig": {
@@ -55,7 +55,7 @@ Note that the `@rambler-tech/eslint-config/typescript` should be second to last 
     "@rambler-tech/eslint-config",
     "@rambler-tech/eslint-config/react",
     "@rambler-tech/eslint-config/next",
-    "@rambler-tech/eslint-config/typescript",
+    "@rambler-tech/eslint-config/ts",
     "prettier"
   ]
 }
