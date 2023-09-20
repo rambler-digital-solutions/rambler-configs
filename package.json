@@ -1,0 +1,31 @@
+{
+  "name": "rambler-config",
+  "description": "Rambler configurations for linters, formatters and tools",
+  "scripts": {
+    "lint": "eslint '**/*.{json,js}'",
+    "format": "prettier --write '**/*.{json,js}' && eslint '**/*.{json,js}' --fix",
+    "release": "lerna version && lerna publish from-package",
+    "prepare": "[ -n \"$CI\" ] && exit 0 || husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rambler-digital-solutions/rambler-config.git"
+  },
+  "author": "Andrey Polischuk <me@andrepolischuk.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-json": "^3.1.0",
+    "husky": "^8.0.3",
+    "lerna": "^3",
+    "lint-staged": "^10.2.6",
+    "prettier": "^2.5.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

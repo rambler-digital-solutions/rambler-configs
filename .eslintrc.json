@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "@rambler-tech/eslint-config",
+    "plugin:json/recommended",
+    "prettier"
+  ]
+}
