@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+    tags-ignore:
+      - v*
 
 jobs:
   release:
@@ -14,7 +16,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           cache: yarn
-          node-version: '16.x'
+          node-version: '18.x'
+      - run: |
+          git config --global user.email $BOT_EMAIL
+          git config --global user.name rambler-ui-bot
+        env:
+          BOT_EMAIL: ${{ secrets.BOT_EMAIL }}
       - run: yarn
       - run: yarn release
         env:
