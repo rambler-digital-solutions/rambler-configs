@@ -1,6 +1,6 @@
 {
-  "name": "rambler-config",
-  "description": "Rambler configurations for linters, formatters and tools",
+  "name": "rambler-configs",
+  "description": "Rambler team configurations for linters, formatters and tools",
   "scripts": {
     "lint": "eslint '**/*.js'",
     "format": "prettier --write '**/*.js' && eslint '**/*.js' --fix",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rambler-digital-solutions/rambler-config.git"
+    "url": "git+https://github.com/rambler-digital-solutions/rambler-configs.git"
   },
   "author": "Andrey Polischuk <me@andrepolischuk.com>",
   "license": "MIT",
