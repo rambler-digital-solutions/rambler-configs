@@ -17,12 +17,12 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
-    "eslint": "^7.1.0",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
     "husky": "^8.0.3",
-    "lerna": "^3",
-    "lint-staged": "^10.2.6",
-    "prettier": "^2.5.1"
+    "lerna": "^7.3.0",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3"
   },
   "workspaces": [
     "packages/*"

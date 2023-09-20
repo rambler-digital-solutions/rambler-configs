@@ -6,6 +6,7 @@
     "version": {
       "allowBranch": "master",
       "conventionalCommits": true,
+      "createRelease": "github",
       "message": "chore(release): publish",
       "ignoreChanges": ["**/*.md"]
     },
