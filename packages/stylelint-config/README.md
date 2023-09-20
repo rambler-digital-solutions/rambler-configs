@@ -1,4 +1,4 @@
-# Shared StyleLint config
+# Shared [StyleLint](https://stylelint.io) config
 
 ## Install
 

@@ -1,4 +1,4 @@
-# Shared ESLint config
+# Shared [ESLint](https://eslint.org) config
 
 ## Install
 

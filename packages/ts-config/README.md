@@ -1,4 +1,4 @@
-# Shared TypeScript config
+# Shared [TypeScript](https://www.typescriptlang.org) config
 
 ## Install
 

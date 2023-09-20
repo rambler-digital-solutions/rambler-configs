@@ -1,4 +1,4 @@
-# Shared Typedoc config
+# Shared [TypeDoc](https://typedoc.org) config
 
 ## Install
 

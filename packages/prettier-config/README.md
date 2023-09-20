@@ -1,4 +1,4 @@
-# Shared Prettier config
+# Shared [Prettier](https://prettier.io) config
 
 ## Install
 

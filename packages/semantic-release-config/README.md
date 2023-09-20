@@ -1,4 +1,4 @@
-# Shared Semantic Release config
+# Shared [Semantic Release](https://github.com/semantic-release/semantic-release) config
 
 ## Install
 
