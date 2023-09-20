@@ -4,6 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "stylelint-a11y": "^1.2.3",
     "stylelint-config-prettier": "^9.0.3",

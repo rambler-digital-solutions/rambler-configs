@@ -4,6 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1"

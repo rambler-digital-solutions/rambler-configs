@@ -21,7 +21,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           cache: yarn
-          node-version: '16.x'
+          node-version: '18.x'
       - run: yarn
       - run: yarn lint
 
@@ -35,7 +35,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           cache: yarn
-          node-version: '16.x'
+          node-version: '18.x'
       - run: yarn
       - uses: wagoid/commitlint-github-action@v3
         env:
