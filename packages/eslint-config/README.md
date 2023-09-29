@@ -42,10 +42,11 @@ or add a key to your **package.json** file.
 
 Use proper configs at the same time depending on your stack. Included configs:
 
-- `@rambler-tech/eslint-config` (default)
-- `@rambler-tech/eslint-config/ts`
-- `@rambler-tech/eslint-config/react`
-- `@rambler-tech/eslint-config/next`
+- `@rambler-tech/eslint-config` - base JavaScript
+- `@rambler-tech/eslint-config/semi` - base with semicolons and trailing commas
+- `@rambler-tech/eslint-config/ts` - TypeScript
+- `@rambler-tech/eslint-config/react` - React
+- `@rambler-tech/eslint-config/next` - Next.js
 
 Note that the `@rambler-tech/eslint-config/ts` should be second to last in the list (before the 'prettier') since it includes `@typescript-eslint/parser`:
 

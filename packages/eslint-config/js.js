@@ -16,6 +16,8 @@ module.exports = {
     'no-multiple-empty-lines': ['error', {max: 1}],
     'no-empty': ['error', {allowEmptyCatch: true}],
     curly: ['error', 'all'],
+    semi: ['error', 'never'],
+    'comma-dangle': ['error', 'never'],
     'eol-last': ['error', 'always'],
     'no-prototype-builtins': 'off',
     'padding-line-between-statements': [
