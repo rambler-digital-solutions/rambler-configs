@@ -6,5 +6,8 @@
   "sideEffects": false,
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@knodes/typedoc-plugin-pages": "^0.23.4"
   }
 }
