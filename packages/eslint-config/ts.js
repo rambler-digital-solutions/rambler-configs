@@ -10,14 +10,22 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   extends: ['plugin:@typescript-eslint/recommended'],
   rules: {
-    '@typescript-eslint/no-explicit-any': 0,
+    '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-unused-vars': [
       'error',
       {argsIgnorePattern: '^_', varsIgnorePattern: '^_'}
     ],
-    '@typescript-eslint/explicit-function-return-type': [
-      'error',
-      {allowExpressions: true}
-    ]
-  }
+    '@typescript-eslint/explicit-function-return-type': 'off'
+  },
+  overrides: [
+    {
+      files: ['*.ts', '*.mts', '*.cts', '*.tsx'],
+      rules: {
+        '@typescript-eslint/explicit-function-return-type': [
+          'error',
+          {allowExpressions: true}
+        ]
+      }
+    }
+  ]
 }
