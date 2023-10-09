@@ -15,6 +15,7 @@ module.exports = {
   rules: {
     'no-multiple-empty-lines': ['error', {max: 1}],
     'no-empty': ['error', {allowEmptyCatch: true}],
+    'prefer-const': ['error', {ignoreReadBeforeAssign: true}],
     curly: ['error', 'all'],
     semi: ['error', 'never'],
     'comma-dangle': ['error', 'never'],
