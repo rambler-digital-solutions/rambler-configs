@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/typedoc-config@0.2.0...@rambler-tech/typedoc-config@0.3.0) (2023-10-24)
+
+### Features
+
+- **typedoc-config:** support typedoc-plugin-extras ([74aee88](https://github.com/rambler-digital-solutions/rambler-configs/commit/74aee884c164a784a3525f0392bcd2d945125d68))
+
 # [0.2.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/typedoc-config@0.1.0...@rambler-tech/typedoc-config@0.2.0) (2023-10-24)
 
 ### Features
