@@ -5,13 +5,7 @@ const OUT_PATH = path.resolve(process.cwd(), 'public')
 const DOCS_PATH = path.resolve(process.cwd(), 'docs')
 const README_PATH = path.resolve(process.cwd(), 'readme.md')
 
-let pagesConfig
-
-try {
-  pagesConfig = require(path.resolve(DOCS_PATH, 'index.json'))
-} catch (e) {}
-
-module.exports = {
+const config = {
   theme: 'default',
   out: OUT_PATH,
   readme: README_PATH,
@@ -23,10 +17,19 @@ module.exports = {
   excludePrivate: true,
   excludeProtected: true,
   excludeInternal: true,
-  excludeNotDocumented: true,
-  plugin: ['@knodes/typedoc-plugin-pages'],
-  pluginPages: {
-    source: DOCS_PATH,
-    pages: pagesConfig
-  }
+  excludeNotDocumented: true
 }
+
+try {
+  const pagesConfig = require(path.resolve(DOCS_PATH, 'index.json'))
+
+  if (pagesConfig) {
+    config.plugin = ['@knodes/typedoc-plugin-pages']
+    config.pluginPages = {
+      source: DOCS_PATH,
+      pages: pagesConfig
+    }
+  }
+} catch (e) {}
+
+module.exports = config
