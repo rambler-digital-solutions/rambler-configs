@@ -11,20 +11,21 @@ const config = {
   readme: README_PATH,
   customCss: './theme.css',
   includeVersion: true,
-  hideGenerator: true,
+  footerLastModified: true,
   exclude: ['**/*.js', '**/*.test.ts'],
   excludeExternals: true,
   excludePrivate: true,
   excludeProtected: true,
   excludeInternal: true,
-  excludeNotDocumented: true
+  excludeNotDocumented: true,
+  plugin: ['typedoc-plugin-extras']
 }
 
 try {
   const pagesConfig = require(path.resolve(DOCS_PATH, 'index.json'))
 
   if (pagesConfig) {
-    config.plugin = ['@knodes/typedoc-plugin-pages']
+    config.plugin.push('@knodes/typedoc-plugin-pages')
     config.pluginPages = {
       source: DOCS_PATH,
       pages: pagesConfig

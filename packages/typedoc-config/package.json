@@ -8,6 +8,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@knodes/typedoc-plugin-pages": "^0.23.4"
+    "@knodes/typedoc-plugin-pages": "^0.23.4",
+    "typedoc-plugin-extras": "^3.0.0"
   }
 }

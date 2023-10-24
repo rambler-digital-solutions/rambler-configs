@@ -22,6 +22,18 @@ Create a **typedoc.json** and extend this config
 }
 ```
 
+## Custom fields
+
+This config supports custom fields from [typedoc-plugin-extras](https://github.com/Drarig29/typedoc-plugin-extras) plugin.
+
+```json
+{
+  "extends": "@rambler-tech/typedoc-config",
+  "customTitle": "Package name",
+  "customDescription": "Yet another package"
+}
+```
+
 ## Additional pages
 
 This config supports additional pages with [@knodes/typedoc-plugin-pages](https://github.com/KnodesCommunity/typedoc-plugins/tree/develop/packages/plugin-pages) plugin.
