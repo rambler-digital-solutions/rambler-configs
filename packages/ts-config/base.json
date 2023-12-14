@@ -13,6 +13,8 @@
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
     "noEmitOnError": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
     "lib": ["dom", "esnext"],
     "jsx": "react"
   }
