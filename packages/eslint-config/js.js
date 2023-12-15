@@ -54,6 +54,10 @@ module.exports = {
         next: 'expression'
       }
     ],
+    'no-duplicate-imports': 2,
+    'no-constant-condition': ['error', {
+      'checkLoops': false
+    }],
     'sonar/anchor-precedence': 'error',
     'sonar/bool-param-default': 'error',
     'sonar/concise-regex': 'error',
