@@ -15,7 +15,9 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'plugin:jsx-a11y/recommended'
+    'plugin:jsx-a11y/recommended',
+    'plugin:ssr-friendly/recommended',
+    'plugin:react-prefer-function-component/recommended'
   ],
   rules: {
     'react/prop-types': 0,
@@ -26,10 +28,18 @@ module.exports = {
       }
     ],
     'jsx-a11y/no-autofocus': [
-      2,
+      'error',
       {
         ignoreNonDOM: true
       }
     ]
-  }
+  },
+  overrides: [
+    {
+      files: ['*.jsx', '*.tsx'],
+      rules: {
+        'import/no-default-export': 'off'
+      }
+    }
+  ]
 }
