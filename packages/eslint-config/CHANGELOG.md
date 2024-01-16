@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.1.1...@rambler-tech/eslint-config@0.2.0) (2023-12-15)
+
+### Features
+
+- **eslint-config:** add no-duplicate-imports, no-constant-condition ([7b653e7](https://github.com/rambler-digital-solutions/rambler-configs/commit/7b653e7c01c295148be1c8d4a1da171d48f37338))
+
 ## [0.1.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.1.0...@rambler-tech/eslint-config@0.1.1) (2023-10-09)
 
 ### Bug Fixes

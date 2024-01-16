@@ -18,6 +18,12 @@ module.exports = {
   rules: {
     'no-multiple-empty-lines': ['error', {max: 1}],
     'no-empty': ['error', {allowEmptyCatch: true}],
+    curly: ['error', 'all'],
+    semi: ['error', 'never'],
+    'comma-dangle': ['error', 'never'],
+    'eol-last': ['error', 'always'],
+    camelcase: ['error', {ignoreDestructuring: true}],
+    eqeqeq: ['error', 'always', {null: 'ignore'}],
     'prefer-const': ['error', {ignoreReadBeforeAssign: true}],
     'prefer-spread': 'error',
     'prefer-template': 'error',
@@ -29,11 +35,6 @@ module.exports = {
       {enforceForRenamedProperties: true}
     ],
     'prefer-arrow-callback': 'error',
-    curly: ['error', 'all'],
-    semi: ['error', 'never'],
-    'comma-dangle': ['error', 'never'],
-    'eol-last': ['error', 'always'],
-    camelcase: ['error', {ignoreDestructuring: true}],
     'no-magic-numbers': [
       'error',
       {
@@ -43,7 +44,6 @@ module.exports = {
         ignoreClassFieldInitialValues: true
       }
     ],
-    eqeqeq: ['error', 'always', {null: 'ignore'}],
     'dot-notation': 'error',
     'max-depth': ['error', 2],
     'max-nested-callbacks': ['error', 2],
@@ -83,6 +83,13 @@ module.exports = {
         blankLine: 'always',
         prev: ['const', 'let'],
         next: 'expression'
+      }
+    ],
+    'no-duplicate-imports': 2,
+    'no-constant-condition': [
+      'error',
+      {
+        checkLoops: false
       }
     ],
     'import/no-unresolved': ['error', {caseSensitiveStrict: true}],
