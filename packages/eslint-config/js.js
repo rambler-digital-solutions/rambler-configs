@@ -52,6 +52,8 @@ module.exports = {
     'require-await': 'error',
     'multiline-comment-style': ['error', 'starred-block'],
     'no-prototype-builtins': 'off',
+    'no-global-assign': 'error',
+    'no-extend-native': 'error',
     'padding-line-between-statements': [
       'error',
       {
