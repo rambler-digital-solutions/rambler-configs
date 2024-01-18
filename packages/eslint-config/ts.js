@@ -7,7 +7,6 @@
 require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
-  parser: '@typescript-eslint/parser',
   rules: {
     '@typescript-eslint/no-unused-vars': [
       'error',
@@ -17,6 +16,10 @@ module.exports = {
   overrides: [
     {
       files: ['*.ts', '*.mts', '*.cts', '*.tsx'],
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        project: true
+      },
       extends: [
         'plugin:@typescript-eslint/recommended',
         'plugin:import/typescript'

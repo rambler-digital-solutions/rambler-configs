@@ -1,4 +1,11 @@
 /* eslint-disable no-magic-numbers */
+/**
+ * @rushstack/eslint-patch is used to include plugins as dev
+ * dependencies instead of imposing them as peer dependencies
+ *
+ * https://www.npmjs.com/package/@rushstack/eslint-patch
+ */
+require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
   parser: '@babel/eslint-parser',
@@ -87,22 +94,19 @@ module.exports = {
         next: 'expression'
       }
     ],
-    'no-duplicate-imports': 2,
+    'no-duplicate-imports': 'error',
     'no-constant-condition': [
       'error',
       {
         checkLoops: false
       }
     ],
-    'import/no-unresolved': ['error', {caseSensitiveStrict: true}],
     'import/no-cycle': 'error',
     'import/no-useless-path-segments': 'error',
     'import/no-relative-parent-imports': 'error',
     'import/no-default-export': 'error',
-    'import/no-unused-modules': [
-      'error',
-      {missingExports: false, unusedExports: true}
-    ],
+    'import/no-unused-modules': 'off',
+    'import/no-unresolved': 'off',
     'import/no-anonymous-default-export': [
       'error',
       {allowCallExpression: false}
@@ -128,13 +132,7 @@ module.exports = {
     'sonar/concise-regex': 'error',
     'sonar/disabled-auto-escaping': 'error',
     'sonar/disabled-resource-integrity': 'error',
-    /**
-     * правило невозможно отключить для отдельных случаев,
-     * при использовании webpack EnvironmentPlugin необходимо
-     * использовать process.env.SOME_VAR без деструктуризации
-     * https://github.com/webpack/webpack/issues/14800
-     */
-    'sonar/destructuring-assignment-syntax': 'off',
+    'sonar/destructuring-assignment-syntax': 'error',
     'sonar/empty-string-repetition': 'error',
     'sonar/function-name': [
       'error',
