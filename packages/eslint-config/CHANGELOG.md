@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.2](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.3.1...@rambler-tech/eslint-config@0.3.2) (2024-01-18)
+
+### Bug Fixes
+
+- **eslint-config:** fix magic numbers ([aeeae6d](https://github.com/rambler-digital-solutions/rambler-configs/commit/aeeae6d0075e867eee1c6163050011d4f1a39cff))
+
 ## [0.3.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.3.0...@rambler-tech/eslint-config@0.3.1) (2024-01-18)
 
 ### Bug Fixes
