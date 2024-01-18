@@ -1,3 +1,5 @@
+/* eslint-disable no-magic-numbers */
+
 module.exports = {
   parser: '@babel/eslint-parser',
   env: {
@@ -8,19 +10,50 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
+    'plugin:import/recommended',
     'plugin:sonar/recommended',
     'plugin:sonarjs/recommended',
-    'plugin:security/recommended'
+    'plugin:security/recommended-legacy'
   ],
   rules: {
     'no-multiple-empty-lines': ['error', {max: 1}],
     'no-empty': ['error', {allowEmptyCatch: true}],
-    'prefer-const': ['error', {ignoreReadBeforeAssign: true}],
     curly: ['error', 'all'],
     semi: ['error', 'never'],
     'comma-dangle': ['error', 'never'],
     'eol-last': ['error', 'always'],
+    camelcase: ['error', {ignoreDestructuring: true}],
+    eqeqeq: ['error', 'always', {null: 'ignore'}],
+    'prefer-const': ['error', {ignoreReadBeforeAssign: true}],
+    'prefer-spread': 'error',
+    'prefer-template': 'error',
+    'prefer-rest-params': 'error',
+    'prefer-object-spread': 'error',
+    'prefer-destructuring': [
+      'error',
+      {array: true, object: true},
+      {enforceForRenamedProperties: true}
+    ],
+    'prefer-arrow-callback': 'error',
+    'no-magic-numbers': [
+      'error',
+      {
+        ignore: [0, 1],
+        enforceConst: true,
+        ignoreDefaultValues: true,
+        ignoreClassFieldInitialValues: true
+      }
+    ],
+    'dot-notation': 'error',
+    'max-depth': ['error', 2],
+    'max-nested-callbacks': ['error', 2],
+    'max-classes-per-file': 'error',
+    'max-params': ['error', 3],
+    'require-await': 'error',
+    'multiline-comment-style': ['error', 'starred-block'],
     'no-prototype-builtins': 'off',
+    'no-global-assign': 'error',
+    'no-extend-native': 'error',
     'padding-line-between-statements': [
       'error',
       {
@@ -55,9 +88,41 @@ module.exports = {
       }
     ],
     'no-duplicate-imports': 2,
-    'no-constant-condition': ['error', {
-      'checkLoops': false
-    }],
+    'no-constant-condition': [
+      'error',
+      {
+        checkLoops: false
+      }
+    ],
+    'import/no-unresolved': ['error', {caseSensitiveStrict: true}],
+    'import/no-cycle': 'error',
+    'import/no-useless-path-segments': 'error',
+    'import/no-relative-parent-imports': 'error',
+    'import/no-default-export': 'error',
+    'import/no-unused-modules': [
+      'error',
+      {missingExports: false, unusedExports: true}
+    ],
+    'import/no-anonymous-default-export': [
+      'error',
+      {allowCallExpression: false}
+    ],
+    'import/newline-after-import': ['error', {considerComments: true}],
+    'import/order': [
+      'error',
+      {
+        groups: [
+          'builtin',
+          'external',
+          'internal',
+          'unknown',
+          'parent',
+          'index',
+          'sibling'
+        ],
+        'newlines-between': 'ignore'
+      }
+    ],
     'sonar/anchor-precedence': 'error',
     'sonar/bool-param-default': 'error',
     'sonar/concise-regex': 'error',
@@ -71,7 +136,10 @@ module.exports = {
      */
     'sonar/destructuring-assignment-syntax': 'off',
     'sonar/empty-string-repetition': 'error',
-    'sonar/function-name': [2, {format: '^_?\\$?[a-zA-Z][a-zA-Z0-9]*\\$?$'}],
+    'sonar/function-name': [
+      'error',
+      {format: '^_?\\$?[a-zA-Z][a-zA-Z0-9]*\\$?$'}
+    ],
     'sonar/function-return-type': 'error',
     'sonar/link-with-target-blank': 'error',
     'sonar/max-union-size': 'off',
