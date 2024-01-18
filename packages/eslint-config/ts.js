@@ -34,10 +34,11 @@ module.exports = {
             enforceForDeclarationWithTypeAnnotation: true
           }
         ],
+        'no-magic-numbers': 'off',
         '@typescript-eslint/no-magic-numbers': [
           'error',
           {
-            ignore: [0, 1],
+            ignore: [0, 1, 2],
             enforceConst: true,
             ignoreDefaultValues: true,
             ignoreClassFieldInitialValues: true,
@@ -47,6 +48,7 @@ module.exports = {
             ignoreTypeIndexes: true
           }
         ],
+        '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/explicit-function-return-type': [
           'error',
           {allowExpressions: true}

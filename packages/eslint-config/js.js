@@ -1,4 +1,3 @@
-/* eslint-disable no-magic-numbers */
 /**
  * @rushstack/eslint-patch is used to include plugins as dev
  * dependencies instead of imposing them as peer dependencies
@@ -45,7 +44,7 @@ module.exports = {
     'no-magic-numbers': [
       'error',
       {
-        ignore: [0, 1],
+        ignore: [0, 1, 2],
         enforceConst: true,
         ignoreDefaultValues: true,
         ignoreClassFieldInitialValues: true
@@ -55,9 +54,9 @@ module.exports = {
     'max-depth': ['error', 2],
     'max-nested-callbacks': ['error', 2],
     'max-classes-per-file': 'error',
+    // eslint-disable-next-line no-magic-numbers
     'max-params': ['error', 3],
     'require-await': 'error',
-    'multiline-comment-style': ['error', 'starred-block'],
     'no-prototype-builtins': 'off',
     'no-global-assign': 'error',
     'no-extend-native': 'error',
