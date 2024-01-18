@@ -13,7 +13,7 @@ module.exports = {
     'plugin:import/recommended',
     'plugin:sonar/recommended',
     'plugin:sonarjs/recommended',
-    'plugin:security/recommended'
+    'plugin:security/recommended-legacy'
   ],
   rules: {
     'no-multiple-empty-lines': ['error', {max: 1}],

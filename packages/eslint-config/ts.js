@@ -8,21 +8,19 @@ require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
   parser: '@typescript-eslint/parser',
-  extends: [
-    'plugin:@typescript-eslint/recommended',
-    'plugin:import/typescript'
-  ],
   rules: {
-    '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-unused-vars': [
       'error',
       {argsIgnorePattern: '^_', varsIgnorePattern: '^_'}
-    ],
-    '@typescript-eslint/explicit-function-return-type': 'off'
+    ]
   },
   overrides: [
     {
       files: ['*.ts', '*.mts', '*.cts', '*.tsx'],
+      extends: [
+        'plugin:@typescript-eslint/recommended',
+        'plugin:import/typescript'
+      ],
       rules: {
         'prefer-destructuring': 'off',
         '@typescript-eslint/prefer-destructuring': [
