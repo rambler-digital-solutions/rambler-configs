@@ -182,6 +182,10 @@ module.exports = {
           args: true,
           props: true,
           Props: true,
+          ref: true,
+          Ref: true,
+          params: true,
+          Params: true,
           req: true,
           res: true
         },
