@@ -20,7 +20,9 @@ module.exports = {
     'plugin:react-prefer-function-component/recommended'
   ],
   rules: {
-    'react/prop-types': 0,
+    'react/prop-types': 'off',
+    'react/jsx-pascal-case': 'error',
+    'react/no-multi-comp': 'error',
     'react-hooks/exhaustive-deps': [
       'warn',
       {

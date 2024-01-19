@@ -31,7 +31,6 @@ module.exports = {
     semi: ['error', 'never'],
     'comma-dangle': ['error', 'never'],
     'eol-last': ['error', 'always'],
-    'arrow-parens': ['error', 'always'],
     camelcase: ['error', {ignoreDestructuring: true}],
     eqeqeq: ['error', 'always', {null: 'ignore'}],
     'prefer-const': ['error', {ignoreReadBeforeAssign: true}],
@@ -69,7 +68,7 @@ module.exports = {
     'no-global-assign': 'error',
     'no-extend-native': 'error',
     'no-alert': 'error',
-    'no-console': 'error',
+    'no-console': ['error', {allow: ['warn', 'error']}],
     'no-unsafe-optional-chaining': [
       'error',
       {disallowArithmeticOperators: true}
@@ -114,7 +113,15 @@ module.exports = {
     'no-nested-ternary': 'error',
     'no-unneeded-ternary': 'error',
     'no-param-reassign': 'error',
-    'no-empty-function': 'error',
+    'no-return-assign': 'error',
+    'no-script-url': 'error',
+    'no-useless-computed-key': 'error',
+    'no-useless-concat': 'error',
+    'no-useless-constructor': 'error',
+    'no-var': 'error',
+    'no-void': 'error',
+    'no-with': 'error',
+    'no-empty-function': ['error', {allow: ['arrowFunctions']}],
     'no-constant-condition': [
       'error',
       {
