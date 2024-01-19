@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.5.3...@rambler-tech/eslint-config@0.6.0) (2024-01-19)
+
+### Features
+
+- **eslint-config:** add promise/unicorn plugins ([8155053](https://github.com/rambler-digital-solutions/rambler-configs/commit/81550532407a6b5c2edcc6e126204efc334db325))
+
 ## [0.5.3](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.5.2...@rambler-tech/eslint-config@0.5.3) (2024-01-19)
 
 ### Bug Fixes
