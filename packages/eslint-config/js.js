@@ -75,7 +75,13 @@ module.exports = {
     ],
     'no-unused-expressions': ['error', {enforceForJSX: true}],
     'no-sequences': ['error', {allowInParentheses: false}],
-    'no-implicit-coercion': ['error', {disallowTemplateShorthand: true}],
+    'no-implicit-coercion': [
+      'error',
+      {
+        boolean: false,
+        disallowTemplateShorthand: false
+      }
+    ],
     'padding-line-between-statements': [
       'error',
       {
@@ -109,7 +115,6 @@ module.exports = {
         next: 'expression'
       }
     ],
-    'no-duplicate-imports': 'error',
     'no-nested-ternary': 'error',
     'no-unneeded-ternary': 'error',
     'no-param-reassign': 'error',
@@ -131,6 +136,7 @@ module.exports = {
     'import/no-cycle': 'error',
     'import/no-useless-path-segments': 'error',
     'import/no-default-export': 'error',
+    'import/no-duplicates': 'error',
     'import/no-unused-modules': [
       'error',
       {missingExports: false, unusedExports: true}
