@@ -131,8 +131,11 @@ module.exports = {
     'import/no-cycle': 'error',
     'import/no-useless-path-segments': 'error',
     'import/no-default-export': 'error',
-    'import/no-unused-modules': 'off',
-    'import/no-unresolved': 'off',
+    'import/no-unused-modules': [
+      'error',
+      {missingExports: false, unusedExports: true}
+    ],
+    'import/no-unresolved': ['error', {caseSensitiveStrict: true}],
     'import/no-anonymous-default-export': [
       'error',
       {allowCallExpression: false}
