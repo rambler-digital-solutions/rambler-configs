@@ -137,15 +137,12 @@ module.exports = {
     'import/no-useless-path-segments': 'error',
     'import/no-default-export': 'error',
     'import/no-duplicates': 'error',
+    'import/no-anonymous-default-export': 'error',
     'import/no-unused-modules': [
       'error',
       {missingExports: false, unusedExports: true}
     ],
     'import/no-unresolved': ['error', {caseSensitiveStrict: true}],
-    'import/no-anonymous-default-export': [
-      'error',
-      {allowCallExpression: false}
-    ],
     'import/newline-after-import': ['error', {considerComments: true}],
     'import/order': [
       'error',
