@@ -7,12 +7,6 @@
 require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
-  rules: {
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      {argsIgnorePattern: '^_', varsIgnorePattern: '^_'}
-    ]
-  },
   overrides: [
     {
       files: ['*.ts', '*.mts', '*.cts', '*.tsx'],
@@ -25,6 +19,11 @@ module.exports = {
         'plugin:import/typescript'
       ],
       rules: {
+        'no-unused-vars': 'off',
+        '@typescript-eslint/no-unused-vars': [
+          'error',
+          {argsIgnorePattern: '^_', varsIgnorePattern: '^_'}
+        ],
         'prefer-destructuring': 'off',
         '@typescript-eslint/prefer-destructuring': [
           'error',
@@ -54,6 +53,22 @@ module.exports = {
           {allowExpressions: true}
         ]
       }
+    },
+    {
+      files: [
+        '**/test/**',
+        '**/tests/**',
+        '**/spec/**',
+        '**/__tests__/**',
+        '*.test.*',
+        '*.spec.*',
+        '*.e2e.*',
+        '*.e2e-spec.*'
+      ],
+      rules: {
+        '@typescript-eslint/no-magic-numbers': 'off'
+      }
     }
-  ]
+  ],
+  ignorePatterns: ['*.d.ts']
 }

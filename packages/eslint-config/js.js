@@ -8,6 +8,9 @@ require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
   parser: '@babel/eslint-parser',
+  parserOptions: {
+    requireConfigFile: false
+  },
   env: {
     es6: true,
     browser: true,
@@ -41,6 +44,8 @@ module.exports = {
       {enforceForRenamedProperties: true}
     ],
     'prefer-arrow-callback': 'error',
+    'prefer-promise-reject-errors': 'error',
+    'object-shorthand': 'error',
     'no-magic-numbers': [
       'error',
       {
@@ -51,15 +56,25 @@ module.exports = {
       }
     ],
     'dot-notation': 'error',
-    'max-depth': ['error', 2],
-    'max-nested-callbacks': ['error', 2],
-    'max-classes-per-file': 'error',
-    // eslint-disable-next-line no-magic-numbers
+    /* eslint-disable no-magic-numbers */
+    'max-depth': ['error', 3],
+    'max-nested-callbacks': ['error', 3],
     'max-params': ['error', 3],
+    /* eslint-enable no-magic-numbers */
+    'max-classes-per-file': 'error',
     'require-await': 'error',
+    'new-cap': 'error',
     'no-prototype-builtins': 'off',
     'no-global-assign': 'error',
     'no-extend-native': 'error',
+    'no-alert': 'error',
+    'no-unsafe-optional-chaining': [
+      'error',
+      {disallowArithmeticOperators: true}
+    ],
+    'no-unused-expressions': ['error', {enforceForJSX: true}],
+    'no-sequences': ['error', {allowInParentheses: false}],
+    'no-implicit-coercion': ['error', {disallowTemplateShorthand: true}],
     'padding-line-between-statements': [
       'error',
       {
@@ -94,6 +109,9 @@ module.exports = {
       }
     ],
     'no-duplicate-imports': 'error',
+    'no-nested-ternary': 'error',
+    'no-unneeded-ternary': 'error',
+    'no-param-reassign': 'error',
     'no-constant-condition': [
       'error',
       {
@@ -102,7 +120,6 @@ module.exports = {
     ],
     'import/no-cycle': 'error',
     'import/no-useless-path-segments': 'error',
-    'import/no-relative-parent-imports': 'error',
     'import/no-default-export': 'error',
     'import/no-unused-modules': 'off',
     'import/no-unresolved': 'off',
@@ -170,5 +187,25 @@ module.exports = {
     'security/detect-pseudoRandomBytes': 'error',
     'security/detect-unsafe-regex': 'off',
     'security/detect-bidi-characters': 'error'
-  }
+  },
+  overrides: [
+    {
+      files: [
+        '**/test/**',
+        '**/tests/**',
+        '**/spec/**',
+        '**/__tests__/**',
+        '*.test.*',
+        '*.spec.*',
+        '*.e2e.*',
+        '*.e2e-spec.*'
+      ],
+      rules: {
+        'no-magic-numbers': 'off',
+        'max-classes-per-file': 'off',
+        'sonarjs/no-duplicate-string': 'off',
+        'sonarjs/no-identical-functions': 'off'
+      }
+    }
+  ]
 }
