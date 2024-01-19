@@ -62,9 +62,9 @@ module.exports = {
         '**/spec/**',
         '**/__tests__/**',
         '**/__stories__/**',
-        '*.story.*',
         '*.test.*',
         '*.spec.*',
+        '*.story.*',
         '*.e2e.*',
         '*.e2e-spec.*'
       ],

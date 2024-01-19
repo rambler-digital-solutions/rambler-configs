@@ -24,6 +24,7 @@ module.exports = {
     'plugin:sonarjs/recommended',
     'plugin:security/recommended-legacy'
   ],
+  plugins: ['promise', 'unicorn'],
   rules: {
     'no-multiple-empty-lines': ['error', {max: 1}],
     'no-empty': ['error', {allowEmptyCatch: true}],
@@ -159,6 +160,35 @@ module.exports = {
         'newlines-between': 'ignore'
       }
     ],
+    'promise/catch-or-return': 'error',
+    'promise/no-return-wrap': 'error',
+    'promise/param-names': 'error',
+    'promise/no-multiple-resolved': 'error',
+    'promise/prefer-await-to-then': 'error',
+    'promise/prefer-await-to-callbacks': 'error',
+    'unicorn/error-message': 'error',
+    'unicorn/throw-new-error': 'error',
+    'unicorn/catch-error-name': 'error',
+    'unicorn/prefer-optional-catch-binding': 'error',
+    'unicorn/no-useless-promise-resolve-reject': 'error',
+    'unicorn/filename-case': [
+      'error',
+      {cases: {kebabCase: true, camelCase: true, pascalCase: true}}
+    ],
+    'unicorn/prevent-abbreviations': [
+      'error',
+      {
+        allowList: {
+          args: true,
+          props: true,
+          Props: true,
+          req: true,
+          res: true
+        },
+        ignore: ['\\.e2e$', '\\.e2e-spec$'],
+        checkShorthandProperties: true
+      }
+    ],
     'sonar/anchor-precedence': 'error',
     'sonar/bool-param-default': 'error',
     'sonar/concise-regex': 'error',
@@ -211,8 +241,10 @@ module.exports = {
         '**/tests/**',
         '**/spec/**',
         '**/__tests__/**',
+        '**/__stories__/**',
         '*.test.*',
         '*.spec.*',
+        '*.story.*',
         '*.e2e.*',
         '*.e2e-spec.*'
       ],
@@ -226,11 +258,7 @@ module.exports = {
     {
       files: ['**/__stories__/**', '*.story.*'],
       rules: {
-        'no-magic-numbers': 'off',
-        'max-classes-per-file': 'off',
-        'import/no-unused-modules': 'off',
-        'sonarjs/no-duplicate-string': 'off',
-        'sonarjs/no-identical-functions': 'off'
+        'import/no-unused-modules': 'off'
       }
     }
   ]
