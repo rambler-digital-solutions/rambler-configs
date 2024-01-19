@@ -31,6 +31,6 @@ try {
       pages: pagesConfig
     }
   }
-} catch (e) {}
+} catch {}
 
 module.exports = config
