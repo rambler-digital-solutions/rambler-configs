@@ -1,6 +1,6 @@
 {
   "name": "@rambler-tech/eslint-config",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "main": "index.js",
   "license": "MIT",
   "sideEffects": false,
