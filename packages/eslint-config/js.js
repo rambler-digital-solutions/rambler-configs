@@ -225,6 +225,16 @@ module.exports = {
         'sonarjs/no-duplicate-string': 'off',
         'sonarjs/no-identical-functions': 'off'
       }
+    },
+    {
+      files: ['**/__stories__/**', '*.story.*'],
+      rules: {
+        'no-magic-numbers': 'off',
+        'max-classes-per-file': 'off',
+        'import/no-unused-modules': 'off',
+        'sonarjs/no-duplicate-string': 'off',
+        'sonarjs/no-identical-functions': 'off'
+      }
     }
   ]
 }

@@ -61,6 +61,8 @@ module.exports = {
         '**/tests/**',
         '**/spec/**',
         '**/__tests__/**',
+        '**/__stories__/**',
+        '*.story.*',
         '*.test.*',
         '*.spec.*',
         '*.e2e.*',
