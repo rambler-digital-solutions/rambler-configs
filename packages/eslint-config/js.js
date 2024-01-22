@@ -24,7 +24,7 @@ module.exports = {
     'plugin:sonarjs/recommended',
     'plugin:security/recommended-legacy'
   ],
-  plugins: ['promise', 'unicorn'],
+  plugins: ['promise', 'unicorn', 'todo-with-label'],
   rules: {
     'no-multiple-empty-lines': ['error', {max: 1}],
     'no-empty': ['error', {allowEmptyCatch: true}],
@@ -235,7 +235,14 @@ module.exports = {
     'security/detect-possible-timing-attacks': 'error',
     'security/detect-pseudoRandomBytes': 'error',
     'security/detect-unsafe-regex': 'off',
-    'security/detect-bidi-characters': 'error'
+    'security/detect-bidi-characters': 'error',
+    'todo-with-label/has-valid-pattern': [
+      'error',
+      {
+        pattern:
+          '^(TODO|NOTE|COMMENT|FIXME|BUG|HACK|INFO|XXX)\\((\\w+-\\d+)\\)\\: (.*)$'
+      }
+    ]
   },
   overrides: [
     {

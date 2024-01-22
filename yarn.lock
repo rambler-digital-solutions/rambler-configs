@@ -2672,6 +2672,13 @@ eslint-plugin-ssr-friendly@^1.3.0:
   dependencies:
     globals "^13.8.0"
 
+eslint-plugin-todo-with-label@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-todo-with-label/-/eslint-plugin-todo-with-label-2.0.0.tgz#3b5e64ece40994e461b989996fe65bc157e7d454"
+  integrity sha512-ZFt9ZPBa6kmUphuu3IP1it/9pGwAPtkctFkoWNk6YUSBQ1e3AuEDip4nRxPJsRZ5srN5VwIdJrQrrW1N4X7fdw==
+  dependencies:
+    debug "^4.3.4"
+
 eslint-plugin-unicorn@^50.0.1:
   version "50.0.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-50.0.1.tgz#e539cdb02dfd893c603536264c4ed9505b70e3bf"
