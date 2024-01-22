@@ -19,6 +19,7 @@ module.exports = {
     'plugin:ssr-friendly/recommended',
     'plugin:react-prefer-function-component/recommended'
   ],
+  plugins: ['@arthurgeron/react-usememo'],
   rules: {
     'react/prop-types': 'off',
     'react/jsx-pascal-case': 'error',
@@ -34,7 +35,8 @@ module.exports = {
       {
         ignoreNonDOM: true
       }
-    ]
+    ],
+    '@arthurgeron/react-usememo/require-usememo': 'error'
   },
   overrides: [
     {
