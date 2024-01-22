@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.6.2...@rambler-tech/eslint-config@0.7.0) (2024-01-22)
+
+### Features
+
+- **eslint-config:** add react memoization rule ([1e4474c](https://github.com/rambler-digital-solutions/rambler-configs/commit/1e4474cf5217e45ad015d4debc3bfea4e2816c79))
+
 ## [0.6.2](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.6.1...@rambler-tech/eslint-config@0.6.2) (2024-01-22)
 
 ### Bug Fixes
