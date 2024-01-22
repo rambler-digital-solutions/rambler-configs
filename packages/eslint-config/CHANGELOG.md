@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.2](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.6.1...@rambler-tech/eslint-config@0.6.2) (2024-01-22)
+
+### Bug Fixes
+
+- **eslint-config:** don't prefer await to callbacks ([5418a32](https://github.com/rambler-digital-solutions/rambler-configs/commit/5418a32217cd9c6ca82e5fecda8bc61436f82f59))
+
 ## [0.6.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.6.0...@rambler-tech/eslint-config@0.6.1) (2024-01-19)
 
 ### Bug Fixes
