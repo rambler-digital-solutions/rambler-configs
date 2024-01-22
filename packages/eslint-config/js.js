@@ -165,7 +165,6 @@ module.exports = {
     'promise/param-names': 'error',
     'promise/no-multiple-resolved': 'error',
     'promise/prefer-await-to-then': 'error',
-    'promise/prefer-await-to-callbacks': 'error',
     'unicorn/error-message': 'error',
     'unicorn/throw-new-error': 'error',
     'unicorn/catch-error-name': 'error',
