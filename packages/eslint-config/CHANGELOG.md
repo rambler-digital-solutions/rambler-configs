@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.8.0...@rambler-tech/eslint-config@0.8.1) (2024-01-24)
+
+### Bug Fixes
+
+- **eslint-config:** allow dev abbreviation ([40f0b8e](https://github.com/rambler-digital-solutions/rambler-configs/commit/40f0b8e941b61ac144f02a0bb21e2b6b5bc3ae78))
+
 # [0.8.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.7.0...@rambler-tech/eslint-config@0.8.0) (2024-01-22)
 
 ### Features
