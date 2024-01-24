@@ -133,6 +133,9 @@ module.exports = {
     'import/no-useless-path-segments': 'error',
     'import/no-default-export': 'error',
     'import/no-duplicates': 'error',
+    'import/no-self-import': 'error',
+    'import/no-named-as-default': 'error',
+    'import/no-named-as-default-member': 'error',
     'import/no-anonymous-default-export': 'error',
     'import/no-unused-modules': [
       'error',
