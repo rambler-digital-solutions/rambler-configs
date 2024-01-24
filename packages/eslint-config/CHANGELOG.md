@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.3](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.8.2...@rambler-tech/eslint-config@0.8.3) (2024-01-24)
+
+### Bug Fixes
+
+- **eslint-config:** allow time magic numbers for ts ([213d69b](https://github.com/rambler-digital-solutions/rambler-configs/commit/213d69b7b0dbef72ec642626cf24822feb63027e))
+
 ## [0.8.2](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.8.1...@rambler-tech/eslint-config@0.8.2) (2024-01-24)
 
 ### Bug Fixes
