@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.9.0...@rambler-tech/eslint-config@0.9.1) (2024-01-24)
+
+### Bug Fixes
+
+- **eslint-config:** disable max nested callbacks in tests ([f65c148](https://github.com/rambler-digital-solutions/rambler-configs/commit/f65c148efb999291fd0326c211e1c0ad8d15fd61))
+
 # [0.9.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.8.4...@rambler-tech/eslint-config@0.9.0) (2024-01-24)
 
 ### Features
