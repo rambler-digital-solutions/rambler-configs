@@ -179,14 +179,16 @@ module.exports = {
       {
         allowList: {
           args: true,
+          req: true,
+          res: true,
           props: true,
           Props: true,
           ref: true,
           Ref: true,
           params: true,
           Params: true,
-          req: true,
-          res: true
+          dev: true,
+          Dev: true
         },
         ignore: ['\\.e2e$', '\\.e2e-spec$'],
         checkShorthandProperties: true
