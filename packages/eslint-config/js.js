@@ -39,11 +39,6 @@ module.exports = {
     'prefer-template': 'error',
     'prefer-rest-params': 'error',
     'prefer-object-spread': 'error',
-    'prefer-destructuring': [
-      'error',
-      {array: true, object: true},
-      {enforceForRenamedProperties: true}
-    ],
     'prefer-arrow-callback': 'error',
     'prefer-promise-reject-errors': 'error',
     'object-shorthand': 'error',

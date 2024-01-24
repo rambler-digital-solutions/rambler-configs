@@ -24,15 +24,6 @@ module.exports = {
           'error',
           {argsIgnorePattern: '^_', varsIgnorePattern: '^_'}
         ],
-        'prefer-destructuring': 'off',
-        '@typescript-eslint/prefer-destructuring': [
-          'error',
-          {array: true, object: true},
-          {
-            enforceForRenamedProperties: true,
-            enforceForDeclarationWithTypeAnnotation: true
-          }
-        ],
         'no-magic-numbers': 'off',
         '@typescript-eslint/no-magic-numbers': [
           'error',
