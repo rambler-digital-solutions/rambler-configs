@@ -261,6 +261,7 @@ module.exports = {
       rules: {
         'no-magic-numbers': 'off',
         'max-classes-per-file': 'off',
+        'max-nested-callbacks': 'off',
         'sonarjs/no-duplicate-string': 'off',
         'sonarjs/no-identical-functions': 'off'
       }
