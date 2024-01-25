@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.2](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.9.1...@rambler-tech/eslint-config@0.9.2) (2024-01-25)
+
+### Bug Fixes
+
+- **eslint-config:** disable react memoization for test/stories ([684c7ad](https://github.com/rambler-digital-solutions/rambler-configs/commit/684c7adc9dcf558f5b2ddf55eab89fc2ef65ea5d))
+
 ## [0.9.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.9.0...@rambler-tech/eslint-config@0.9.1) (2024-01-24)
 
 ### Bug Fixes
