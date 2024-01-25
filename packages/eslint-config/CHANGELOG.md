@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.3](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.9.2...@rambler-tech/eslint-config@0.9.3) (2024-01-25)
+
+### Bug Fixes
+
+- **eslint-config:** ignore non-camelcase in properties ([cf835c3](https://github.com/rambler-digital-solutions/rambler-configs/commit/cf835c3b22162c20d3a6477f0f6c259f5de0e3ac))
+
 ## [0.9.2](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.9.1...@rambler-tech/eslint-config@0.9.2) (2024-01-25)
 
 ### Bug Fixes
