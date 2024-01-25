@@ -32,7 +32,7 @@ module.exports = {
     semi: ['error', 'never'],
     'comma-dangle': ['error', 'never'],
     'eol-last': ['error', 'always'],
-    camelcase: ['error', {ignoreDestructuring: true}],
+    camelcase: ['error', {properties: 'never', ignoreDestructuring: true}],
     eqeqeq: ['error', 'always', {null: 'ignore'}],
     'prefer-const': ['error', {ignoreReadBeforeAssign: true}],
     'prefer-spread': 'error',
