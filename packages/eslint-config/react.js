@@ -44,6 +44,23 @@ module.exports = {
       rules: {
         'import/no-default-export': 'off'
       }
+    },
+    {
+      files: [
+        '**/test/**',
+        '**/tests/**',
+        '**/spec/**',
+        '**/__tests__/**',
+        '**/__stories__/**',
+        '*.test.*',
+        '*.spec.*',
+        '*.story.*',
+        '*.e2e.*',
+        '*.e2e-spec.*'
+      ],
+      rules: {
+        '@arthurgeron/react-usememo/require-usememo': 'off'
+      }
     }
   ]
 }
