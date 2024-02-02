@@ -36,7 +36,12 @@ module.exports = {
         ignoreNonDOM: true
       }
     ],
-    '@arthurgeron/react-usememo/require-usememo': 'error'
+    '@arthurgeron/react-usememo/require-usememo': [
+      'error',
+      {
+        checkHookCalls: false
+      }
+    ]
   },
   overrides: [
     {
