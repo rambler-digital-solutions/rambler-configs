@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.6](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.9.5...@rambler-tech/eslint-config@0.9.6) (2024-02-08)
+
+### Bug Fixes
+
+- **eslint-config:** use typescript parser for all files ([5cc22b8](https://github.com/rambler-digital-solutions/rambler-configs/commit/5cc22b81bdfb6530d55875eb845e91130145f39f))
+
 ## [0.9.5](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.9.4...@rambler-tech/eslint-config@0.9.5) (2024-02-02)
 
 ### Bug Fixes
