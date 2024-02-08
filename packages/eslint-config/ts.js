@@ -7,13 +7,13 @@
 require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    project: true
+  },
   overrides: [
     {
       files: ['*.ts', '*.mts', '*.cts', '*.tsx'],
-      parser: '@typescript-eslint/parser',
-      parserOptions: {
-        project: true
-      },
       extends: [
         'plugin:@typescript-eslint/recommended',
         'plugin:import/typescript'
