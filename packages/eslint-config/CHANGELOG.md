@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.9.9...@rambler-tech/eslint-config@0.10.0) (2024-02-12)
+
+### Bug Fixes
+
+- **eslint-config:** allow anonymous default export for storybook ([0f9747e](https://github.com/rambler-digital-solutions/rambler-configs/commit/0f9747e60f7c4660674e81ec41ebf7c0768a4e43))
+
+### Features
+
+- **eslint-config:** support storybook rules ([3ad52b9](https://github.com/rambler-digital-solutions/rambler-configs/commit/3ad52b900555c268a8e707d11deb9a22546025d8))
+
 ## [0.9.9](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.9.8...@rambler-tech/eslint-config@0.9.9) (2024-02-12)
 
 ### Bug Fixes
