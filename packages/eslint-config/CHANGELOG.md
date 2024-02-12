@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.10.0...@rambler-tech/eslint-config@0.10.1) (2024-02-12)
+
+### Bug Fixes
+
+- **eslint-config:** disable stories' default export rule ([19ae0c7](https://github.com/rambler-digital-solutions/rambler-configs/commit/19ae0c71c53d6f7c0392bb72d1b9a49c9b164404))
+
 # [0.10.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.9.9...@rambler-tech/eslint-config@0.10.0) (2024-02-12)
 
 ### Bug Fixes
