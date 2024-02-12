@@ -17,7 +17,8 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:ssr-friendly/recommended',
-    'plugin:react-prefer-function-component/recommended'
+    'plugin:react-prefer-function-component/recommended',
+    'plugin:storybook/recommended'
   ],
   plugins: ['@arthurgeron/react-usememo'],
   rules: {
@@ -65,6 +66,13 @@ module.exports = {
       ],
       rules: {
         '@arthurgeron/react-usememo/require-usememo': 'off'
+      }
+    },
+    {
+      files: ['**/__stories__/**', '*.story.*'],
+      rules: {
+        'import/no-unused-modules': 'off',
+        'import/no-anonymous-default-export': 'off'
       }
     }
   ]
