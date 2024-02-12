@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.7](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.9.6...@rambler-tech/eslint-config@0.9.7) (2024-02-12)
+
+### Bug Fixes
+
+- **eslint-config:** fix useMemo/useCallback import order ([5cad284](https://github.com/rambler-digital-solutions/rambler-configs/commit/5cad284f5c55bc912a583f25e5355a7ea885b03a))
+
 ## [0.9.6](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.9.5...@rambler-tech/eslint-config@0.9.6) (2024-02-08)
 
 ### Bug Fixes
