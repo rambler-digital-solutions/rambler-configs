@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.9](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.9.8...@rambler-tech/eslint-config@0.9.9) (2024-02-12)
+
+### Bug Fixes
+
+- **eslint-config:** disable explicit function return type ([8b69b41](https://github.com/rambler-digital-solutions/rambler-configs/commit/8b69b41153cc2c4aef1b6246e21def9ca0b0cd7d))
+
 ## [0.9.8](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.9.7...@rambler-tech/eslint-config@0.9.8) (2024-02-12)
 
 ### Bug Fixes
