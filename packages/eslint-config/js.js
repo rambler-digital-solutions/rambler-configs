@@ -172,33 +172,6 @@ module.exports = {
       'error',
       {cases: {kebabCase: true, camelCase: true, pascalCase: true}}
     ],
-    'unicorn/prevent-abbreviations': [
-      'error',
-      {
-        allowList: {
-          req: true,
-          res: true,
-          args: true,
-          Args: true,
-          prop: true,
-          Prop: true,
-          props: true,
-          Props: true,
-          ref: true,
-          Ref: true,
-          refs: true,
-          Refs: true,
-          param: true,
-          Param: true,
-          params: true,
-          Params: true,
-          dev: true,
-          Dev: true
-        },
-        ignore: ['\\.e2e$', '\\.e2e-spec$'],
-        checkShorthandProperties: true
-      }
-    ],
     'sonar/anchor-precedence': 'error',
     'sonar/bool-param-default': 'error',
     'sonar/concise-regex': 'error',
