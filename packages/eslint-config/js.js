@@ -220,7 +220,7 @@ module.exports = {
       'error',
       {
         pattern:
-          '^(TODO|NOTE|COMMENT|FIXME|BUG|HACK|INFO|XXX)\\((\\w+-\\d+)\\)\\: (.*)$'
+          '^((TODO|FIXME|BUG)\\(\\w+-\\d+\\)|(NOTE|COMMENT|HACK|INFO)(\\(\\w+-\\d+\\))?)\\: (.*)$'
       }
     ]
   },
