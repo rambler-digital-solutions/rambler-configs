@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.3](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.10.2...@rambler-tech/eslint-config@0.10.3) (2024-02-13)
+
+### Bug Fixes
+
+- **eslint-config:** make NOTE comment's scope optional ([96225da](https://github.com/rambler-digital-solutions/rambler-configs/commit/96225dae5fa23e454ed5c19eb5dcec19f42b3408))
+
 ## [0.10.2](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.10.1...@rambler-tech/eslint-config@0.10.2) (2024-02-13)
 
 ### Bug Fixes
