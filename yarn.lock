@@ -15,14 +15,6 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@arthurgeron/eslint-plugin-react-usememo@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@arthurgeron/eslint-plugin-react-usememo/-/eslint-plugin-react-usememo-2.3.1.tgz#794ad174fb2bc7b08ee613e1b21d740548497d78"
-  integrity sha512-pcf2qeQdxOqOqPlF8ksKiWNyCHjhOmOAqFIF8raHTRGurK4RRKqM8+eJwjkYVjwMY1B9TCfpy5p95axGGvZkkw==
-  dependencies:
-    minimatch "9.0.3"
-    uuid "9.0.1"
-
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.22.13":
   version "7.22.13"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.22.13.tgz#e3c1c099402598483b7a8c46a721d1038803755e"
@@ -6767,7 +6759,7 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-uuid@9.0.1, uuid@^9.0.0:
+uuid@^9.0.0:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
   integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==

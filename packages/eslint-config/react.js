@@ -20,7 +20,6 @@ module.exports = {
     'plugin:react-prefer-function-component/recommended',
     'plugin:storybook/recommended'
   ],
-  plugins: ['@arthurgeron/react-usememo'],
   rules: {
     'react/prop-types': 'off',
     'react/jsx-pascal-case': 'error',
@@ -36,12 +35,6 @@ module.exports = {
       {
         ignoreNonDOM: true
       }
-    ],
-    '@arthurgeron/react-usememo/require-usememo': [
-      'error',
-      {
-        checkHookCalls: false
-      }
     ]
   },
   overrides: [
@@ -49,23 +42,6 @@ module.exports = {
       files: ['*.jsx', '*.tsx'],
       rules: {
         'import/no-default-export': 'off'
-      }
-    },
-    {
-      files: [
-        '**/test/**',
-        '**/tests/**',
-        '**/spec/**',
-        '**/__tests__/**',
-        '**/__stories__/**',
-        '*.test.*',
-        '*.spec.*',
-        '*.story.*',
-        '*.e2e.*',
-        '*.e2e-spec.*'
-      ],
-      rules: {
-        '@arthurgeron/react-usememo/require-usememo': 'off'
       }
     },
     {

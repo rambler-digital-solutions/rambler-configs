@@ -8,7 +8,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@arthurgeron/eslint-plugin-react-usememo": "^2.3.1",
     "@babel/core": "^7.23.9",
     "@babel/eslint-parser": "^7.23.10",
     "@rushstack/eslint-patch": "^1.7.2",
