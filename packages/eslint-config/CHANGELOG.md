@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.2](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.10.1...@rambler-tech/eslint-config@0.10.2) (2024-02-13)
+
+### Bug Fixes
+
+- **eslint-config:** remove eslint react memo plugin ([bd023e4](https://github.com/rambler-digital-solutions/rambler-configs/commit/bd023e4675847d887e77f3d14991a10414b73c31))
+
 ## [0.10.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.10.0...@rambler-tech/eslint-config@0.10.1) (2024-02-12)
 
 ### Bug Fixes
