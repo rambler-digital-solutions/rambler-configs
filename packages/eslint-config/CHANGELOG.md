@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.4](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.10.3...@rambler-tech/eslint-config@0.10.4) (2024-02-20)
+
+### Bug Fixes
+
+- **eslint-config:** add common ignore patterns ([2f2201c](https://github.com/rambler-digital-solutions/rambler-configs/commit/2f2201c8aed95dc1b7ef5e72e4300e7861b8ec07))
+- **eslint-config:** fix disable type checking for js ([e250a03](https://github.com/rambler-digital-solutions/rambler-configs/commit/e250a03d562cba9c5fc69f5851c25f79438ec849))
+
 ## [0.10.3](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.10.2...@rambler-tech/eslint-config@0.10.3) (2024-02-13)
 
 ### Bug Fixes
