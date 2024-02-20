@@ -58,6 +58,10 @@ module.exports = {
       rules: {
         '@typescript-eslint/no-magic-numbers': 'off'
       }
+    },
+    {
+      files: ['*.js', '*.mjs', '*.cjs', '*.jsx'],
+      extends: ['plugin:@typescript-eslint/disable-type-checked']
     }
   ],
   ignorePatterns: ['*.d.ts']
