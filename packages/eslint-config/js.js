@@ -246,5 +246,19 @@ module.exports = {
         'sonarjs/no-identical-functions': 'off'
       }
     }
+  ],
+  ignorePatterns: [
+    '.git/',
+    'node_modules/',
+    'bower_components/',
+    'jspm_packages/',
+    'lib-cov/',
+    'coverage/',
+    '.nyc_output/',
+    '.cache/',
+    'build/',
+    'dist/',
+    'tmp/',
+    '**/*.min.*'
   ]
 }
