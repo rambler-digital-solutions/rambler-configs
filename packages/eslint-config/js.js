@@ -22,7 +22,8 @@ module.exports = {
     'plugin:import/recommended',
     'plugin:sonar/recommended',
     'plugin:sonarjs/recommended',
-    'plugin:security/recommended-legacy'
+    'plugin:security/recommended-legacy',
+    'prettier'
   ],
   plugins: ['promise', 'unicorn', 'todo-with-label'],
   rules: {

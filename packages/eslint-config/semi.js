@@ -1,5 +1,5 @@
 module.exports = {
-  extends: '@rambler-tech/eslint-config',
+  extends: ['./js.js'],
   rules: {
     semi: ['error', 'always'],
     'comma-dangle': ['error', 'only-multiline']

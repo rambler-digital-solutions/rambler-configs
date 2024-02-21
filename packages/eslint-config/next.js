@@ -7,7 +7,7 @@
 require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
-  extends: ['next'],
+  extends: ['./react.js', 'next', 'prettier'],
   rules: {
     '@next/next/no-img-element': 0
   }

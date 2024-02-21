@@ -16,7 +16,8 @@ module.exports = {
       files: ['*.ts', '*.mts', '*.cts', '*.tsx'],
       extends: [
         'plugin:@typescript-eslint/recommended',
-        'plugin:import/typescript'
+        'plugin:import/typescript',
+        'prettier'
       ],
       rules: {
         'no-unused-vars': 'off',
