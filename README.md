@@ -4,6 +4,7 @@ Rambler team configurations for linters, formatters and tools
 
 ## Tools
 
+* [CommitLint](packages/commitlint-config)
 * [ESLint](packages/eslint-config)
 * [License Lint](packages/licenselint-config)
 * [Prettier](packages/prettier-config)

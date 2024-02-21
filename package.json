@@ -15,8 +15,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@commitlint/cli": "^17.6.6",
-    "@commitlint/config-conventional": "^17.6.6",
+    "@commitlint/cli": "^17",
     "eslint": "^8.49.0",
     "eslint-config-prettier": "^9.0.0",
     "husky": "^8.0.3",
