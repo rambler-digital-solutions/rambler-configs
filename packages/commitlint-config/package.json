@@ -8,6 +8,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^18.6.2"
+    "@commitlint/config-conventional": "^17"
   }
 }
