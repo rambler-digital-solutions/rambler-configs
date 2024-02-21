@@ -18,7 +18,8 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'plugin:ssr-friendly/recommended',
     'plugin:react-prefer-function-component/recommended',
-    'plugin:storybook/recommended'
+    'plugin:storybook/recommended',
+    'prettier'
   ],
   rules: {
     'react/prop-types': 'off',

@@ -1,6 +1,3 @@
 {
-  "extends": ["@rambler-tech/eslint-config", "prettier"],
-  "parserOptions": {
-    "requireConfigFile": false
-  }
+  "extends": ["@rambler-tech/eslint-config"]
 }
