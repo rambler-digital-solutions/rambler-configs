@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.10.4...@rambler-tech/eslint-config@0.11.0) (2024-02-21)
+
+### Features
+
+- **eslint-config:** include prettier in config ([ecbfe17](https://github.com/rambler-digital-solutions/rambler-configs/commit/ecbfe174ddc3191683b2249cf252561a8fb59106))
+
 ## [0.10.4](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.10.3...@rambler-tech/eslint-config@0.10.4) (2024-02-20)
 
 ### Bug Fixes
