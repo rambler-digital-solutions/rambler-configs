@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.11.0...@rambler-tech/eslint-config@0.11.1) (2024-02-26)
+
+### Bug Fixes
+
+- **eslint-config:** disable sonar destructuring rule ([55ba5d1](https://github.com/rambler-digital-solutions/rambler-configs/commit/55ba5d10fb83ede091def1b9f8cd9a01340fa388))
+
 # [0.11.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.10.4...@rambler-tech/eslint-config@0.11.0) (2024-02-21)
 
 ### Features
