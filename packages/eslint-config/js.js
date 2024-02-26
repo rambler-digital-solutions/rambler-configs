@@ -178,7 +178,7 @@ module.exports = {
     'sonar/concise-regex': 'error',
     'sonar/disabled-auto-escaping': 'error',
     'sonar/disabled-resource-integrity': 'error',
-    'sonar/destructuring-assignment-syntax': 'error',
+    'sonar/destructuring-assignment-syntax': 'off',
     'sonar/empty-string-repetition': 'error',
     'sonar/function-name': [
       'error',
