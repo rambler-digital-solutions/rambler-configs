@@ -71,30 +71,4 @@ Example `.eslintrc.json` for TypeScript Next.js project:
 }
 ```
 
-Note that the `@rambler-tech/eslint-config/ts` should be second to last in the list since it includes `@typescript-eslint/parser`:
-
-## Module resolution
-
-Included [`eslint-plugin-import`](https://github.com/import-js/eslint-plugin-import) requires additional settings if you use custom module resolution. For example if you use aliases instead of long relative paths:
-
-```ts
-import App from 'components/app'
-```
-
-This config includes [`eslint-import-resolver-webpack`](https://www.npmjs.com/package/eslint-import-resolver-webpack) and [`eslint-import-resolver-typescript`](https://www.npmjs.com/package/eslint-import-resolver-typescript).
-
-To use resolution options from `tsconfig.json` add the following settings to your `.eslintrc.json`.
-
-```json
-{
-  "extends": [
-    "@rambler-tech/eslint-config",
-    "@rambler-tech/eslint-config/ts"
-  ],
-  "settings": {
-    "import/resolver": {
-      "typescript": true
-    }
-  }
-}
-```
+Note that the `@rambler-tech/eslint-config/ts` should be second to last in the list since it includes `@typescript-eslint/parser`

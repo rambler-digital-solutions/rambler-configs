@@ -248,6 +248,13 @@ module.exports = {
       }
     }
   ],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx']
+      }
+    }
+  },
   ignorePatterns: [
     '.git/',
     'node_modules/',

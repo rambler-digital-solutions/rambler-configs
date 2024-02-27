@@ -65,5 +65,12 @@ module.exports = {
       extends: ['plugin:@typescript-eslint/disable-type-checked']
     }
   ],
+  settings: {
+    'import/resolver': {
+      typescript: {
+        alwaysTryTypes: true
+      }
+    }
+  },
   ignorePatterns: ['*.d.ts']
 }
