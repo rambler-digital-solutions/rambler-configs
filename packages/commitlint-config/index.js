@@ -1,13 +1,7 @@
 module.exports = {
   extends: ['./conventional.js'],
+  parserPreset: './preset-simple',
   rules: {
     'type-empty': [0]
-  },
-  parserPreset: {
-    parserOpts: {
-      headerPattern: /^(.*)$/,
-      headerCorrespondence: ['subject'],
-      issuePrefixes: ['#', '[A-Z]{2,10}-']
-    }
   }
 }
