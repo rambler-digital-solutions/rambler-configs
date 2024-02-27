@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/commitlint-config@0.1.0...@rambler-tech/commitlint-config@0.1.1) (2024-02-27)
+
+### Bug Fixes
+
+- **commitlint-config:** fix parser presets ([c4e7da7](https://github.com/rambler-digital-solutions/rambler-configs/commit/c4e7da769daa33926e2ba87f208757030e0f2eef))
+
 # 0.1.0 (2024-02-21)
 
 ### Features
