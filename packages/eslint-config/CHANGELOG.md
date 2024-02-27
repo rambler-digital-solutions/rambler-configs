@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.12.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.11.1...@rambler-tech/eslint-config@0.12.0) (2024-02-27)
+
+### Features
+
+- **eslint-config:** support import resolutions out of the box ([6eac94e](https://github.com/rambler-digital-solutions/rambler-configs/commit/6eac94efcb350b74b73c583423dfdf8708158ba9))
+
 ## [0.11.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.11.0...@rambler-tech/eslint-config@0.11.1) (2024-02-26)
 
 ### Bug Fixes
