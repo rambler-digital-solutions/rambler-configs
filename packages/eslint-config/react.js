@@ -46,6 +46,23 @@ module.exports = {
       }
     },
     {
+      files: [
+        '**/test/**',
+        '**/tests/**',
+        '**/spec/**',
+        '**/__tests__/**',
+        '**/__stories__/**',
+        '*.test.*',
+        '*.spec.*',
+        '*.story.*',
+        '*.e2e.*',
+        '*.e2e-spec.*'
+      ],
+      rules: {
+        'react/no-multi-comp': 'off'
+      }
+    },
+    {
       files: ['**/__stories__/**', '*.story.*'],
       rules: {
         'import/no-unused-modules': 'off',
