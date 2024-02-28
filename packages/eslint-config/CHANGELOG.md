@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.12.0...@rambler-tech/eslint-config@0.12.1) (2024-02-28)
+
+### Bug Fixes
+
+- **eslint-config:** allow multiple components in tests/storybook ([3a1b675](https://github.com/rambler-digital-solutions/rambler-configs/commit/3a1b67538abea58da5ad459dbd530df15c61df93))
+
 # [0.12.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.11.1...@rambler-tech/eslint-config@0.12.0) (2024-02-27)
 
 ### Features
