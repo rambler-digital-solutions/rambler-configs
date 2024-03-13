@@ -25,6 +25,11 @@ module.exports = {
           'error',
           {argsIgnorePattern: '^_', varsIgnorePattern: '^_'}
         ],
+        'no-empty-function': 'off',
+        '@typescript-eslint/no-empty-function': [
+          'error',
+          {allow: ['arrowFunctions']}
+        ],
         'no-magic-numbers': 'off',
         '@typescript-eslint/no-magic-numbers': [
           'error',
