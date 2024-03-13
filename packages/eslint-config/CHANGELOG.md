@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.2](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.12.1...@rambler-tech/eslint-config@0.12.2) (2024-03-13)
+
+### Bug Fixes
+
+- **eslint-config:** fix no-empty-function rule ([c34c83b](https://github.com/rambler-digital-solutions/rambler-configs/commit/c34c83b1de27671778214e87ca758e5bb537e310))
+
 ## [0.12.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.12.0...@rambler-tech/eslint-config@0.12.1) (2024-02-28)
 
 ### Bug Fixes
