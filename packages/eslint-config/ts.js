@@ -34,7 +34,7 @@ module.exports = {
         '@typescript-eslint/no-magic-numbers': [
           'error',
           {
-            ignore: [0, 1, -1, 2, 24, 60, 1000],
+            ignore: [0, 1, -1, 2, 24, 60, 100, 1000],
             enforceConst: true,
             ignoreDefaultValues: true,
             ignoreClassFieldInitialValues: true,
