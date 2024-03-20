@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.4](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.12.3...@rambler-tech/eslint-config@0.12.4) (2024-03-20)
+
+### Bug Fixes
+
+- **eslint-config:** increase cognitive complexity ([957c7b2](https://github.com/rambler-digital-solutions/rambler-configs/commit/957c7b2aecccc74aac15f88d47adf301eca5c46c))
+
 ## [0.12.3](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.12.2...@rambler-tech/eslint-config@0.12.3) (2024-03-14)
 
 ### Bug Fixes
