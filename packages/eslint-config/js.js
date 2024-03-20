@@ -1,3 +1,4 @@
+/* eslint-disable no-magic-numbers */
 /**
  * @rushstack/eslint-patch is used to include plugins as dev
  * dependencies instead of imposing them as peer dependencies
@@ -53,11 +54,9 @@ module.exports = {
       }
     ],
     'dot-notation': 'error',
-    /* eslint-disable no-magic-numbers */
     'max-depth': ['error', 3],
     'max-nested-callbacks': ['error', 3],
     'max-params': ['error', 3],
-    /* eslint-enable no-magic-numbers */
     'max-classes-per-file': 'error',
     'require-await': 'error',
     'new-cap': 'error',
@@ -203,6 +202,7 @@ module.exports = {
     'sonar/stateful-regex': 'error',
     'sonar/unused-named-groups': 'error',
     'sonar/xpath': 'error',
+    'sonarjs/cognitive-complexity': ['error', 20],
     'security/detect-buffer-noassert': 'error',
     'security/detect-child-process': 'error',
     'security/detect-disable-mustache-escape': 'error',
