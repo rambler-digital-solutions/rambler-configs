@@ -112,7 +112,7 @@ module.exports = {
       }
     ],
     'no-nested-ternary': 'error',
-    'no-unneeded-ternary': 'error',
+    'no-unneeded-ternary': ['error', {defaultAssignment: false}],
     'no-param-reassign': 'error',
     'no-return-assign': 'error',
     'no-script-url': 'error',
@@ -122,6 +122,8 @@ module.exports = {
     'no-var': 'error',
     'no-void': 'error',
     'no-with': 'error',
+    'no-throw-literal': 'error',
+    'no-template-curly-in-string': 'error',
     'no-empty-function': ['error', {allow: ['arrowFunctions']}],
     'no-constant-condition': [
       'error',
