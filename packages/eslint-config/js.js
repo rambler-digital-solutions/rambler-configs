@@ -69,6 +69,10 @@ module.exports = {
       'error',
       {disallowArithmeticOperators: true}
     ],
+    'no-unused-vars': [
+      'error',
+      {argsIgnorePattern: '^_', varsIgnorePattern: '^_'}
+    ],
     'no-unused-expressions': ['error', {enforceForJSX: true}],
     'no-sequences': ['error', {allowInParentheses: false}],
     'no-implicit-coercion': [
