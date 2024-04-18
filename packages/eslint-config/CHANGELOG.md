@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.13.0...@rambler-tech/eslint-config@0.13.1) (2024-04-18)
+
+### Bug Fixes
+
+- **eslint-config:** fix no-unused-vars ([47792d5](https://github.com/rambler-digital-solutions/rambler-configs/commit/47792d5b44940d347df5cc463d64db0019198548))
+
 # [0.13.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.12.4...@rambler-tech/eslint-config@0.13.0) (2024-03-26)
 
 ### Features
