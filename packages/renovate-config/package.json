@@ -1,6 +1,6 @@
 {
   "name": "@rambler-tech/renovate-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "default.json",
   "license": "MIT",
   "sideEffects": false,
