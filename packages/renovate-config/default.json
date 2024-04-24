@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "minimumReleaseAge": "3 days",
+  "reviewersFromCodeOwners": true,
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["patch"],
+      "addLabels": ["dependencies", "patch"],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["minor"],
+      "addLabels": ["dependencies", "minor"],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "addLabels": ["dependencies", "major"]
+    }
+  ]
+}
