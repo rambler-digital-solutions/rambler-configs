@@ -11,6 +11,7 @@
     "default": {
       "minimumReleaseAge": "3 days",
       "reviewersFromCodeOwners": true,
+      "prHourlyLimit": 0,
       "packageRules": [
         {
           "matchUpdateTypes": [
@@ -45,12 +46,7 @@
       "packageRules": [
         {
           "matchUpdateTypes": [
-            "patch"
-          ],
-          "automerge": true
-        },
-        {
-          "matchUpdateTypes": [
+            "patch",
             "minor"
           ],
           "automerge": true
