@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/renovate-config@0.1.1...@rambler-tech/renovate-config@0.1.2) (2024-04-25)
+
+### Bug Fixes
+
+- **renovate-config:** disable hourly limits ([5adc3d6](https://github.com/rambler-digital-solutions/rambler-configs/commit/5adc3d69e208322a919329a3a62be6470ad99306))
+
 ## [0.1.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/renovate-config@0.1.0...@rambler-tech/renovate-config@0.1.1) (2024-04-24)
 
 ### Bug Fixes
