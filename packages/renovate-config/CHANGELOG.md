@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/renovate-config@0.1.3...@rambler-tech/renovate-config@0.1.4) (2024-04-26)
+
+### Bug Fixes
+
+- **renovate-config:** disable automerge for non-stable 0.x updates ([8758647](https://github.com/rambler-digital-solutions/rambler-configs/commit/8758647d30441a874fa10c433b3425a739e348c5))
+
 ## [0.1.3](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/renovate-config@0.1.2...@rambler-tech/renovate-config@0.1.3) (2024-04-25)
 
 ### Bug Fixes
