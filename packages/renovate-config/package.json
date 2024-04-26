@@ -50,6 +50,7 @@
             "patch",
             "minor"
           ],
+          "matchCurrentVersion": "!/^0/",
           "automerge": true
         }
       ]
