@@ -17,7 +17,7 @@ yarn add -D @rambler-tech/renovate-config
 Included configurations:
 
 - `@rambler-tech/renovate-config` - base config
-- `@rambler-tech/renovate-config/automerge` - enables auto-merge for `patch` and `minor` updates
+- `@rambler-tech/renovate-config:automerge` - enables auto-merge for `patch` and `minor` updates
 
 Example `renovate.json` for updates with auto-merge:
 
