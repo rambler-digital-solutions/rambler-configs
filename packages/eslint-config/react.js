@@ -24,11 +24,29 @@ module.exports = {
   rules: {
     'react/prop-types': 'off',
     'react/jsx-pascal-case': 'error',
+    'react/jsx-fragments': 'error',
+    'react/jsx-no-useless-fragment': 'error',
     'react/no-multi-comp': 'error',
+    'react/hook-use-state': 'error',
+    'react/jsx-handler-names': [
+      'error',
+      {
+        eventHandlerPrefix: 'handle',
+        eventHandlerPropPrefix: 'on',
+        checkLocalVariables: true,
+        checkInlineFunction: true
+      }
+    ],
     'react-hooks/exhaustive-deps': [
       'warn',
       {
         additionalHooks: '(useDeferCallback)'
+      }
+    ],
+    'react/no-unstable-nested-components': [
+      'error',
+      {
+        allowAsProps: true
       }
     ],
     'jsx-a11y/no-autofocus': [
