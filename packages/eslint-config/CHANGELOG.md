@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.14.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.13.1...@rambler-tech/eslint-config@0.14.0) (2024-08-13)
+
+### Features
+
+- **eslint-config:** add js rules ([8d7fb50](https://github.com/rambler-digital-solutions/rambler-configs/commit/8d7fb509b8d199f719fca35b26a2918bbfe5ae66))
+- **eslint-config:** add react rules ([977b7ba](https://github.com/rambler-digital-solutions/rambler-configs/commit/977b7ba118e661b68befae1fb92f244dd18f3c35))
+
 ## [0.13.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.13.0...@rambler-tech/eslint-config@0.13.1) (2024-04-18)
 
 ### Bug Fixes
