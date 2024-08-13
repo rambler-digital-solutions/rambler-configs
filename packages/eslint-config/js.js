@@ -26,7 +26,7 @@ module.exports = {
     'plugin:security/recommended-legacy',
     'prettier'
   ],
-  plugins: ['promise', 'unicorn', 'todo-with-label'],
+  plugins: ['promise', 'unicorn', 'todo-with-label', 'no-secrets'],
   rules: {
     'no-multiple-empty-lines': ['error', {max: 1}],
     'no-empty': ['error', {allowEmptyCatch: true}],
@@ -63,7 +63,9 @@ module.exports = {
     'no-prototype-builtins': 'off',
     'no-global-assign': 'error',
     'no-extend-native': 'error',
+    'no-else-return': 'error',
     'no-alert': 'error',
+    'no-debugger': 'error',
     'no-console': ['error', {allow: ['warn', 'error']}],
     'no-unsafe-optional-chaining': [
       'error',
@@ -73,7 +75,14 @@ module.exports = {
       'error',
       {argsIgnorePattern: '^_', varsIgnorePattern: '^_'}
     ],
-    'no-unused-expressions': ['error', {enforceForJSX: true}],
+    'no-unused-expressions': [
+      'error',
+      {
+        enforceForJSX: true,
+        allowShortCircuit: false,
+        allowTernary: false
+      }
+    ],
     'no-sequences': ['error', {allowInParentheses: false}],
     'no-implicit-coercion': [
       'error',
@@ -137,6 +146,9 @@ module.exports = {
     ],
     'import/no-cycle': 'error',
     'import/no-useless-path-segments': 'error',
+    'import/no-absolute-path': 'error',
+    'import/no-extraneous-dependencies': 'error',
+    'import/no-mutable-exports': 'error',
     'import/no-default-export': 'error',
     'import/no-duplicates': 'error',
     'import/no-self-import': 'error',
@@ -223,6 +235,7 @@ module.exports = {
     'security/detect-pseudoRandomBytes': 'error',
     'security/detect-unsafe-regex': 'off',
     'security/detect-bidi-characters': 'error',
+    'no-secrets/no-secrets': 'error',
     'todo-with-label/has-valid-pattern': [
       'error',
       {
@@ -250,7 +263,8 @@ module.exports = {
         'max-classes-per-file': 'off',
         'max-nested-callbacks': 'off',
         'sonarjs/no-duplicate-string': 'off',
-        'sonarjs/no-identical-functions': 'off'
+        'sonarjs/no-identical-functions': 'off',
+        'no-secrets/no-secrets': 'off'
       }
     }
   ],
