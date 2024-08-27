@@ -28,15 +28,6 @@ module.exports = {
     'react/jsx-no-useless-fragment': 'error',
     'react/no-multi-comp': 'error',
     'react/hook-use-state': 'error',
-    'react/jsx-handler-names': [
-      'error',
-      {
-        eventHandlerPrefix: 'handle',
-        eventHandlerPropPrefix: 'on',
-        checkLocalVariables: true,
-        checkInlineFunction: true
-      }
-    ],
     'react-hooks/exhaustive-deps': [
       'warn',
       {
