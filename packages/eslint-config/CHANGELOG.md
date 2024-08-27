@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.14.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.14.0...@rambler-tech/eslint-config@0.14.1) (2024-08-27)
+
+### Bug Fixes
+
+- **eslint-config:** remove jsx-handler-names rule ([dcf826a](https://github.com/rambler-digital-solutions/rambler-configs/commit/dcf826addf81cff17f17bc4aa129ecfc764724e8))
+
 # [0.14.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.13.1...@rambler-tech/eslint-config@0.14.0) (2024-08-13)
 
 ### Features
