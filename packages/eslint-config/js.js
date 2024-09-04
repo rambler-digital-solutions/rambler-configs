@@ -26,7 +26,7 @@ module.exports = {
     'plugin:security/recommended-legacy',
     'prettier'
   ],
-  plugins: ['promise', 'unicorn', 'todo-with-label', 'no-secrets'],
+  plugins: ['promise', 'unicorn', 'todo-with-label'],
   rules: {
     'no-multiple-empty-lines': ['error', {max: 1}],
     'no-empty': ['error', {allowEmptyCatch: true}],
@@ -235,7 +235,6 @@ module.exports = {
     'security/detect-pseudoRandomBytes': 'error',
     'security/detect-unsafe-regex': 'off',
     'security/detect-bidi-characters': 'error',
-    'no-secrets/no-secrets': 'error',
     'todo-with-label/has-valid-pattern': [
       'error',
       {
@@ -263,8 +262,7 @@ module.exports = {
         'max-classes-per-file': 'off',
         'max-nested-callbacks': 'off',
         'sonarjs/no-duplicate-string': 'off',
-        'sonarjs/no-identical-functions': 'off',
-        'no-secrets/no-secrets': 'off'
+        'sonarjs/no-identical-functions': 'off'
       }
     }
   ],
