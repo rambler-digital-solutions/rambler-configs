@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.14.2](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.14.1...@rambler-tech/eslint-config@0.14.2) (2024-09-04)
+
+### Bug Fixes
+
+- **eslint-config:** remove no-secrets rule ([8688d92](https://github.com/rambler-digital-solutions/rambler-configs/commit/8688d92354964a51c7af9225316fa203372c0e3a))
+
 ## [0.14.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.14.0...@rambler-tech/eslint-config@0.14.1) (2024-08-27)
 
 ### Bug Fixes
