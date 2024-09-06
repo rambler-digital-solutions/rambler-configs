@@ -12,6 +12,7 @@ const config = {
   customCss: './theme.css',
   includeVersion: true,
   footerLastModified: true,
+  alwaysCreateEntryPointModule: true,
   exclude: ['**/*.js', '**/*.test.ts'],
   excludeExternals: true,
   excludePrivate: true,
