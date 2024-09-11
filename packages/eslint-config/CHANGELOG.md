@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.14.3](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.14.2...@rambler-tech/eslint-config@0.14.3) (2024-09-11)
+
+### Bug Fixes
+
+- **eslint-config:** allow ban ts comment with description ([af7f2c2](https://github.com/rambler-digital-solutions/rambler-configs/commit/af7f2c25c44173d46dbe0929631d9af040fbe3c4))
+
 ## [0.14.2](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.14.1...@rambler-tech/eslint-config@0.14.2) (2024-09-04)
 
 ### Bug Fixes
