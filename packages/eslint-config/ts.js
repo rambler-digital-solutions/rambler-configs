@@ -45,7 +45,11 @@ module.exports = {
           }
         ],
         '@typescript-eslint/no-explicit-any': 'off',
-        '@typescript-eslint/explicit-function-return-type': 'off'
+        '@typescript-eslint/explicit-function-return-type': 'off',
+        '@typescript-eslint/ban-ts-comment': [
+          'error',
+          {'ts-expect-error': 'allow-with-description'}
+        ]
       }
     },
     {
