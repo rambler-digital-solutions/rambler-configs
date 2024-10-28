@@ -25,6 +25,7 @@ module.exports = {
     'react/prop-types': 'off',
     'react/jsx-pascal-case': 'error',
     'react/jsx-fragments': 'error',
+    'react/jsx-no-target-blank': 'off',
     'react/jsx-no-useless-fragment': 'error',
     'react/no-multi-comp': 'error',
     'react/hook-use-state': 'error',
