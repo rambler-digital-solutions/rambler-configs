@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.14.4](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.14.3...@rambler-tech/eslint-config@0.14.4) (2024-10-28)
+
+### Bug Fixes
+
+- **eslint-config:** add jsx-no-target-blank rule ([d038e7d](https://github.com/rambler-digital-solutions/rambler-configs/commit/d038e7dd94c7bfca000256b9c96698b80b0834bc))
+
 ## [0.14.3](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.14.2...@rambler-tech/eslint-config@0.14.3) (2024-09-11)
 
 ### Bug Fixes
