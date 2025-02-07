@@ -2,8 +2,8 @@
   "name": "rambler-configs",
   "description": "Rambler team configurations for linters, formatters and tools",
   "scripts": {
-    "lint": "eslint '**/*.js'",
-    "format": "prettier --write '**/*.js' && eslint '**/*.js' --fix",
+    "lint": "eslint '**/*.{js,mjs}'",
+    "format": "prettier --write '**/*.{js,mjs}' && eslint '**/*.{js,mjs}' --fix",
     "release": "lerna version && lerna publish from-package",
     "prepare": "[ -n \"$CI\" ] && exit 0 || husky install"
   },
@@ -16,7 +16,7 @@
   "private": true,
   "devDependencies": {
     "@commitlint/cli": "^17",
-    "eslint": "^8.49.0",
+    "eslint": "^9.19.0",
     "husky": "^8.0.3",
     "lerna": "^7.3.0",
     "lint-staged": "^14.0.1",

@@ -1,4 +1,4 @@
-# Shared [ESLint](https://eslint.org) config
+# Shared [ESLint](https://eslint.org) v9 config
 
 ## Install
 
@@ -25,50 +25,42 @@ Included special configs:
 - `@rambler-tech/eslint-config/react` - React
 - `@rambler-tech/eslint-config/next` - Next.js
 
-Example `.eslintrc.json` for React project:
+Example `eslint.config.mjs` for React project:
 
-```json
-{
-  "extends": [
-    "@rambler-tech/eslint-config",
-    "@rambler-tech/eslint-config/react"
-  ]
-}
+```mjs
+import { jsConfig } from '@rambler-tech/eslint-config'
+import { reactConfig } from '@rambler-tech/eslint-config/react'
+
+export default [...jsConfig, ...reactConfig]
 ```
 
-Example `.eslintrc.json` for TypeScript project:
+Example `eslint.config.mjs` for TypeScript project:
 
-```json
-{
-  "extends": [
-    "@rambler-tech/eslint-config",
-    "@rambler-tech/eslint-config/ts"
-  ]
-}
+```mjs
+import { jsConfig } from '@rambler-tech/eslint-config'
+import { tsConfig } from '@rambler-tech/eslint-config/ts'
+
+export default [...jsConfig, ...tsConfig]
 ```
 
-Example `.eslintrc.json` for TypeScript React project:
+Example `eslint.config.mjs` for TypeScript React project:
 
-```json
-{
-  "extends": [
-    "@rambler-tech/eslint-config",
-    "@rambler-tech/eslint-config/react",
-    "@rambler-tech/eslint-config/ts"
-  ]
-}
+```mjs
+import { jsConfig } from '@rambler-tech/eslint-config'
+import { reactConfig } from '@rambler-tech/eslint-config/react'
+import { tsConfig } from '@rambler-tech/eslint-config/ts'
+
+export default [...jsConfig, ...reactConfig, ...tsConfig]
 ```
 
-Example `.eslintrc.json` for TypeScript Next.js project:
+Example `eslint.config.mjs` for TypeScript Next.js project:
 
-```json
-{
-  "extends": [
-    "@rambler-tech/eslint-config",
-    "@rambler-tech/eslint-config/next",
-    "@rambler-tech/eslint-config/ts"
-  ]
-}
+```mjs
+import { jsConfig } from '@rambler-tech/eslint-config'
+import { nextConfig } from '@rambler-tech/eslint-config/next'
+import { tsConfig } from '@rambler-tech/eslint-config/ts'
+
+export default [...jsConfig, ...nextConfig, ...tsConfig]
 ```
 
 Note that the `@rambler-tech/eslint-config/ts` should be second to last in the list since it includes `@typescript-eslint/parser`
