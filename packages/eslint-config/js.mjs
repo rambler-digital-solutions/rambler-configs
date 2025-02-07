@@ -192,7 +192,10 @@ const jsConfig = [
         {
           caseSensitiveStrict: true,
           // https://github.com/import-js/eslint-plugin-import/issues/3140#issuecomment-2591619825
-          ignore: ['typescript-eslint']
+          ignore: [
+            'typescript-eslint',
+            'eslint-plugin-react-prefer-function-component'
+          ]
         }
       ],
       'import/newline-after-import': ['error', {considerComments: true}],
