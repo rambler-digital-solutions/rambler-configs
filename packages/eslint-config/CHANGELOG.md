@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.16.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.16.0...@rambler-tech/eslint-config@0.16.1) (2025-02-19)
+
+### Bug Fixes
+
+- **eslint-config:** change config for Next.js for compatibility with other configs ([41ff490](https://github.com/rambler-digital-solutions/rambler-configs/commit/41ff490873d69cdcc8448350361691585892b04f))
+
 # [0.16.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.15.0...@rambler-tech/eslint-config@0.16.0) (2025-02-10)
 
 ### Features
