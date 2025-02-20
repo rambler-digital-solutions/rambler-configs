@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.17.0](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.16.1...@rambler-tech/eslint-config@0.17.0) (2025-02-20)
+
+### Features
+
+- **eslint-config:** rules ([4445ac6](https://github.com/rambler-digital-solutions/rambler-configs/commit/4445ac657b3e58ac5c357443a9543179b3537bd9))
+- **eslint-config:** switch to using only eslint-plugin-sonarjs (without eslint-plugin-sonar) ([f419933](https://github.com/rambler-digital-solutions/rambler-configs/commit/f419933af1a53f85dd4ffe0448d79a16f936d2fa))
+
 ## [0.16.1](https://github.com/rambler-digital-solutions/rambler-configs/compare/@rambler-tech/eslint-config@0.16.0...@rambler-tech/eslint-config@0.16.1) (2025-02-19)
 
 ### Bug Fixes
