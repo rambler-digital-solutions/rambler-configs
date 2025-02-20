@@ -7,21 +7,6 @@ import promise from 'eslint-plugin-promise'
 import unicorn from 'eslint-plugin-unicorn'
 import todoWithLabel from 'eslint-plugin-todo-with-label'
 import babelParser from '@babel/eslint-parser'
-import * as sonar from 'eslint-plugin-sonar'
-
-const sonarConfigWithoutBrokenRule = sonar.configs.flatRecommended.map(
-  (sonarConfig) => {
-    if (sonarConfig.rules['sonar/no-accessor-field-mismatch']) {
-      delete sonarConfig.rules['sonar/no-accessor-field-mismatch']
-    }
-
-    if (sonarConfig.rules['sonar/no-hardcoded-credentials']) {
-      delete sonarConfig.rules['sonar/no-hardcoded-credentials']
-    }
-
-    return sonarConfig
-  }
-)
 
 const MAX_DEPTH = 3
 const MAX_COGNITIVE_COMPLEXITY = 20
@@ -29,7 +14,6 @@ const MAX_COGNITIVE_COMPLEXITY = 20
 const jsConfig = [
   js.configs.recommended,
   importPlugin.flatConfigs.recommended,
-  ...sonarConfigWithoutBrokenRule,
   sonarjs.configs.recommended,
   pluginSecurity.configs.recommended,
   eslintConfigPrettier,
@@ -229,35 +213,15 @@ const jsConfig = [
         'error',
         {cases: {kebabCase: true, camelCase: true, pascalCase: true}}
       ],
-      'sonar/anchor-precedence': 'error',
-      'sonar/bool-param-default': 'error',
-      'sonar/concise-regex': 'error',
-      'sonar/disabled-auto-escaping': 'error',
-      'sonar/disabled-resource-integrity': 'error',
-      'sonar/destructuring-assignment-syntax': 'off',
-      'sonar/empty-string-repetition': 'error',
-      'sonar/function-name': [
+      'sonarjs/bool-param-default': 'error',
+      'sonarjs/function-name': [
         'error',
         {format: '^_?\\$?[a-zA-Z][a-zA-Z0-9]*\\$?$'}
       ],
-      'sonar/function-return-type': 'error',
-      'sonar/link-with-target-blank': 'error',
-      'sonar/max-union-size': 'off',
-      'sonar/no-clear-text-protocols': 'error',
-      'sonar/no-empty-after-reluctant': 'error',
-      'sonar/no-function-declaration-in-block': 'error',
-      'sonar/no-global-this': 'error',
-      'sonar/no-globals-shadowing': 'error',
-      'sonar/no-hardcoded-ip': 'error',
-      'sonar/no-incorrect-string-concat': 'error',
-      'sonar/no-invariant-returns': 'error',
-      'sonar/non-number-in-arithmetic-expression': 'error',
-      'sonar/post-message': 'error',
-      'sonar/prefer-type-guard': 'error',
-      'sonar/redundant-type-aliases': 'error',
-      'sonar/stateful-regex': 'error',
-      'sonar/unused-named-groups': 'error',
-      'sonar/xpath': 'error',
+      'sonarjs/no-function-declaration-in-block': 'error',
+      'sonarjs/no-incorrect-string-concat': 'error',
+      'sonarjs/non-number-in-arithmetic-expression': 'error',
+      'sonarjs/xpath': 'error',
       'sonarjs/todo-tag': 'off',
       'sonarjs/fixme-tag': 'off',
       'sonarjs/prefer-read-only-props': 'off',
