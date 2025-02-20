@@ -32,7 +32,6 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-prefer-function-component": "^3.4.0",
     "eslint-plugin-security": "^3.0.1",
-    "eslint-plugin-sonar": "^0.14.1",
     "eslint-plugin-sonarjs": "^3.0.2",
     "eslint-plugin-ssr-friendly": "^1.3.0",
     "eslint-plugin-storybook": "^0.11.2",
