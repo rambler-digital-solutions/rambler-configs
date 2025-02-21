@@ -18,7 +18,7 @@ const tsConfig = tseslint.config(
         }
       }
     },
-    ignores: ['*.d.ts']
+    ignores: ['**/*.d.ts']
   },
   {
     files: ['**/*.{cts,mts,ts,tsx}'],
@@ -76,11 +76,11 @@ const tsConfig = tseslint.config(
       '**/spec/**',
       '**/__tests__/**',
       '**/__stories__/**',
-      '*.test.*',
-      '*.spec.*',
-      '*.story.*',
-      '*.e2e.*',
-      '*.e2e-spec.*'
+      '**/*.test.*',
+      '**/*.spec.*',
+      '**/*.story.*',
+      '**/*.e2e.*',
+      '**/*.e2e-spec.*'
     ],
     rules: {
       '@typescript-eslint/no-magic-numbers': 'off'

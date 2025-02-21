@@ -286,11 +286,11 @@ const jsConfig = [
       '**/spec/**',
       '**/__tests__/**',
       '**/__stories__/**',
-      '*.test.*',
-      '*.spec.*',
-      '*.story.*',
-      '*.e2e.*',
-      '*.e2e-spec.*'
+      '**/*.test.*',
+      '**/*.spec.*',
+      '**/*.story.*',
+      '**/*.e2e.*',
+      '**/*.e2e-spec.*'
     ],
     rules: {
       'no-magic-numbers': 'off',
