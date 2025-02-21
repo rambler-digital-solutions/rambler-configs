@@ -69,7 +69,7 @@ const reactConfig = [
     }
   },
   {
-    files: ['*.jsx', '*.tsx'],
+    files: ['**/*.{jsx,tsx}'],
     rules: {
       'import/no-default-export': 'off'
     }
@@ -81,18 +81,18 @@ const reactConfig = [
       '**/spec/**',
       '**/__tests__/**',
       '**/__stories__/**',
-      '*.test.*',
-      '*.spec.*',
-      '*.story.*',
-      '*.e2e.*',
-      '*.e2e-spec.*'
+      '**/*.test.*',
+      '**/*.spec.*',
+      '**/*.story.*',
+      '**/*.e2e.*',
+      '**/*.e2e-spec.*'
     ],
     rules: {
       'react/no-multi-comp': 'off'
     }
   },
   {
-    files: ['**/__stories__/**', '*.story.*'],
+    files: ['**/__stories__/**', '**/*.story.*'],
     rules: {
       'import/no-unused-modules': 'off',
       'import/no-anonymous-default-export': 'off',

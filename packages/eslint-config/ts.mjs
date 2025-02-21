@@ -18,10 +18,10 @@ const tsConfig = tseslint.config(
         }
       }
     },
-    ignores: ['*.d.ts']
+    ignores: ['**/*.d.ts']
   },
   {
-    files: ['*.ts', '*.mts', '*.cts', '*.tsx'],
+    files: ['**/*.{cts,mts,ts,tsx}'],
     extends: [
       tseslint.configs.strict,
       tseslint.configs.stylistic,
@@ -58,7 +58,15 @@ const tsConfig = tseslint.config(
       '@typescript-eslint/ban-ts-comment': [
         'error',
         {'ts-expect-error': 'allow-with-description'}
-      ]
+      ],
+      'sonarjs/array-constructor': 'off',
+      'sonarjs/no-unused-function-argument': 'off',
+      'sonarjs/class-prototype': 'off',
+      'sonarjs/no-for-in-iterable': 'off',
+      'sonarjs/no-variable-usage-before-declaration': 'off',
+      'sonarjs/non-number-in-arithmetic-expression': 'off',
+      'sonarjs/null-dereference': 'off',
+      'sonarjs/sonar-block-scoped-var': 'off'
     }
   },
   {
@@ -68,11 +76,11 @@ const tsConfig = tseslint.config(
       '**/spec/**',
       '**/__tests__/**',
       '**/__stories__/**',
-      '*.test.*',
-      '*.spec.*',
-      '*.story.*',
-      '*.e2e.*',
-      '*.e2e-spec.*'
+      '**/*.test.*',
+      '**/*.spec.*',
+      '**/*.story.*',
+      '**/*.e2e.*',
+      '**/*.e2e-spec.*'
     ],
     rules: {
       '@typescript-eslint/no-magic-numbers': 'off'
